@@ -1,0 +1,16 @@
+name: MsMItemID
+main: MsMItemID\MsMItemID
+version: 0.0.1
+api: 4.0.0
+author: MossMohs
+
+commands:
+  iv:
+    description: "들고 있는 아이템의 아이템ID를 보여줍니다."
+    usage: "Usage: /iv"
+    aliases: ["코드"]
+    permission: iv.command
+
+permission:
+  iv.command:
+    default: OP
